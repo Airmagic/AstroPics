@@ -14,11 +14,12 @@
     "express-session": "^1.15.6",
     "hbs": "~4.0.1",
     "mongodb": "^2.2.33",
+    "mongoose": "^4.13.5",
     "morgan": "~1.7.0",
     "serve-favicon": "~2.3.2"
   },
-  "engines":{
-   "node":"v6.11.2",
-   "npm":"3.10.10"
+  "engines": {
+    "node": "v6.11.2",
+    "npm": "3.10.10"
   }
 }
