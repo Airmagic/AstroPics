@@ -26,7 +26,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-var mongo_url = process.env.mongodb://dbUser:456def@ds115396.mlab.com:15396/astropix;
+var mongo_url = process.env.MONGO_URL;
 
 // Configure session store. Remember to configure DB url for this app's database
 var store = new MongoDBStore({ uri: mongo_url, collection: 'sessions'}, function(err) {
