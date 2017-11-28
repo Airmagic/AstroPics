@@ -17,7 +17,7 @@
     "mongoose": "^4.13.5",
     "morgan": "~1.7.0",
 	"moment":"^2.19.2",
-    "serve-favicon": "~2.3.2"
+    "serve-favicon": "~2.3.2",
 	"request": "^2.83.0"
   },
   "engines": {
